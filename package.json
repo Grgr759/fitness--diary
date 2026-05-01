@@ -1,4 +1,3 @@
-
 {
   "name": "workout-diary",
   "private": true,
@@ -20,4 +19,3 @@
     "vite": "^5.1.4"
   }
 }
-
