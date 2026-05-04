@@ -1,4 +1,3 @@
-```react
 import React, { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
@@ -10,12 +9,12 @@ import { Dumbbell, Calendar, Plus, Trash2, ArrowLeft, Activity, CheckCircle, Che
 // (ВЫ ПОЛУЧИЛИ ИХ НА ЭТАПЕ 1)
 // =========================================================================
 const firebaseConfig = {
-  apiKey: "ВСТАВИТЬ_СЮДА",
-  authDomain: "ВСТАВИТЬ_СЮДА",
-  projectId: "ВСТАВИТЬ_СЮДА",
-  storageBucket: "ВСТАВИТЬ_СЮДА",
-  messagingSenderId: "ВСТАВИТЬ_СЮДА",
-  appId: "ВСТАВИТЬ_СЮДА"
+  apiKey: "AIzaSyBDVv6ofdaXp0AnexaeK7Cn5KmZePaSBnY",
+  authDomain: "gym-bro-1e232.firebaseapp.com",
+  projectId: "gym-bro-1e232",
+  storageBucket: "gym-bro-1e232.firebasestorage.app",
+  messagingSenderId: "350994209581",
+  appId: "1:350994209581:web:22bcf3ff9ea87e287011a4"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -389,6 +388,4 @@ function ProfileView({ user, profileName, onSaveName, onClose }) {
       </div>
     </div>
   );
-}
-
-```
+  }
